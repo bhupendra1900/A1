@@ -66,9 +66,6 @@ jobs:
 
     - name: SET SCREEN
       run: cmd /c QQ.bat
-
-    - name: RUN EXTRACT
-      run: cmd /c exe2.bat
       
     - name: TimeCount
       run: |
