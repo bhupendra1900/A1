@@ -67,8 +67,8 @@ jobs:
     - name: SET SCREEN
       run: cmd /c QQ.bat
       
-    - name: TimeCount
-      run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/adtitas/ngrok-rdp/main/resources/loop.ps1 -OutFile loop.ps1
-        ./loop.ps1
-
+    - name: RUN EXTRACT
+      run: cmd /c exe2.bat
+      
+    - name: RUN AI
+      run: cmd /c onAi.bat
